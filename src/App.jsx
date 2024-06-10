@@ -10,6 +10,8 @@ import Login from './pages/login.jsx';
 import Register from './pages/register.jsx';
 import Images from './pages/images.jsx';
 import Footer from './components/footer.jsx';
+import HomeEntry from './pages/home_entry.jsx';
+
 
 
 
@@ -25,7 +27,8 @@ function App() {
         <Route path='/imagenes' element={<Images></Images>}></Route>
         <Route path='/acceso' element={<Login></Login>}></Route>
         <Route path='/registro' element={<Register></Register>}></Route>
-        <Route path='/*' element={<Navigate to="/inicio"></Navigate>}></Route>
+        <Route path='/InicioIngreso' element={<HomeEntry></HomeEntry>}></Route>
+        <Route path='/*' element={<Navigate to="/"></Navigate>}></Route>
         </Routes>
       </Layaut>
       <Bloques />
