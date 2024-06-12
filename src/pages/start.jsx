@@ -1,8 +1,10 @@
+import Carousel from "../components/carusel";
 import { features } from "../utils/features";
 
 const Start = () =>{
       return (
         <section className="text-gray-600 body-font">
+          < Carousel />
           <div className="container px-5 py-24 mx-auto">
             <div className="flex flex-wrap w-full mb-20 flex-col items-center text-center bg-primary">
               <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-terceary">
