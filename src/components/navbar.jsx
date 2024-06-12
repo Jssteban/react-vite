@@ -10,7 +10,7 @@ const NavBar = () => {
     <>
       <nav className="bg-primary p-4">
         <div className="flex justify-center items-center flex-col md:flex-row ">
-          <div className="flex items-center mb-4 md:mb-0">
+          <div className="flex items-center mb-4 md:mb-0 justify-center">
             <BurgerMenu />
             <span className="text-3xl text-terceary ml-4">Garapp</span>
           </div>

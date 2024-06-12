@@ -1,10 +1,10 @@
 
-const Button = (props) =>{
-  
-    const {name} = props;
+const Button = ({name,...rest}) =>{
+
     return(
      <>
-     <button className="bg-primary px-5 py-2 text-white  ">{name}</button>
+     <button {...rest}
+     className="bg-primary px-5 py-2 text-white  ">{name}</button>
      </>
     )
 }
