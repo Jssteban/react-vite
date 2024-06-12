@@ -11,6 +11,8 @@ import Register from './pages/register.jsx';
 import Images from './pages/images.jsx';
 import Footer from './components/footer.jsx';
 import homeEntry from './pages/home_entry.jsx';
+import routes from './routes/route.jsx'
+
 
 
 
@@ -22,13 +24,9 @@ function App() {
       <NavBar />
       <Layaut>
         <Routes>
-        <Route path='/inicio' element={<Start></Start>}/>
-        <Route path='/taller' element={<Workshop></Workshop>}/>
-        <Route path='/imagenes' element={<Images></Images>}/>
-        <Route path='/acceso' element={<Login></Login>}/>
-        <Route path='/registro' element={<Register></Register>}/>
-        <Route path='/InicioIngreso' element={<homeEntry></homeEntry>}/>
-        <Route path='/*' element={<Navigate to="/"></Navigate>}/>
+          {routes.map(({path,element})=>(
+        <Route path={path} element={element}/>
+          ))}
         </Routes>
       </Layaut>
       <Bloques />
