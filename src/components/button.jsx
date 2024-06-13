@@ -1,10 +1,9 @@
 
 const Button = ({name,...rest}) =>{
-
     return(
      <>
      <button {...rest}
-     className="bg-primary px-5 py-2 text-white  ">{name}</button>
+     className="bg-white px-5 py-2 text-primary rounded-full ">{name}</button>
      </>
     )
 }

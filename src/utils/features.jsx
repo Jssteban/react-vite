@@ -103,5 +103,47 @@ export const features = [
       ),
       title: 'Ramona Falls',
       description: 'Fingerstache flexitarian street art 8-bit waist co, subway tile poke farm.',
-    },
+    }, 
   ];
+
+  export const categories =[
+    {
+      href: '#',
+      name: 'liquidos',
+      src: './yamaha.jfif'
+    },
+    {
+      href: '#',
+      name: 'llantas',
+       src: './fordcamioneta.jfif'
+    },
+    {
+      href: '#',
+      name: 'frenos',
+       src: './mustang.jfif'
+
+    },
+    {
+      href: '#',
+      name: 'discos', 
+      src: './mercedes.jpg'
+    },
+    {
+      href: '#',
+      name: 'aceites',
+       src: './chevroletcamaro.jfif'
+    },
+    {
+      href: '#',
+      name: 'liquidos',
+       src: './corvette.jfif'
+    }, {
+      href: '#',
+      name: 'partes',
+       src: './cadillac.jfif'
+    }, {
+      href: '#',
+      name: 'aceites',
+       src: './pagani.jfif'
+    },
+  ]
