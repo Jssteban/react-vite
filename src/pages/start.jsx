@@ -1,4 +1,4 @@
-import Carousel from "../components/carusel";
+import Carousel from "../components/Carusel";
 import { features } from "../utils/features";
 
 const Start = () =>{

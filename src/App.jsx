@@ -1,9 +1,9 @@
 
-import Layaut from './components/layaut.jsx'
-import NavBar from './components/navbar.jsx';
-import Bloques from './components/bloques.jsx';
+import Layaut from './components/Layaut.jsx'
+import NavBar from './components/Navbar.jsx';
+import Bloques from './components/Bloques.jsx';
 import {  Route, Routes } from 'react-router-dom';
-import Footer from './components/footer.jsx';
+import Footer from './components/Footer.jsx';
 import routes from './routes/route.jsx'
 
 

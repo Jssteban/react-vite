@@ -39,7 +39,7 @@ const BurgerMenu = () => {
             </li>
             </div>
             <li>
-            <NavLink to="/" className={`${hover} capitalize font-bold`}>Secciones</NavLink>
+            <NavLink to="/InicioIngreso" className={`${hover} capitalize font-bold`}>Home</NavLink>
             </li>
             <li>
             <NavLink to="/" className={`${hover} capitalize font-bold`}>Almacenes</NavLink>

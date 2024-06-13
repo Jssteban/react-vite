@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
-import BurgerMenu from "./burger_menu";
-import DropdownButton from "./dropdown_button";
+import BurgerMenu from "./BurgerMenu";
+import DropdownButton from "./DropdownButton";
 
 
 const NavBar = () => {

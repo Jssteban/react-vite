@@ -1,5 +1,5 @@
 import Badges from "components/Badges";
-import Carousel from "../components/carusel";
+import Carousel from "../components/Carusel";
 import { FiSettings } from "react-icons/fi";
 import { categories } from "utils/features";
 

@@ -3,7 +3,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './global.css'
-import Button from './components/button.jsx'
+import Button from './components/Button.jsx'
 import { BrowserRouter } from 'react-router-dom'
 
 
